@@ -1,5 +1,8 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { AiFillTwitterCircle, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import Image from "next/legacy/image";
+import avatarme from "/public/avatarme.png";
 
 export default function Home() {
   return (
@@ -24,6 +27,24 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">Zhiyad Harith</h2>
+            <h3 className="text-2xl py-2">Aspiring Frontend Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">Hello! This is my portfolio to showcase the projects I've worked on to potential employers. Thank you for taking your time!</p>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+            <AiFillTwitterCircle />
+            <AiFillLinkedin />
+            <AiFillGithub />
+          </div>
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+            <Image src={avatarme} />
+          </div>
+        </section>
+        <section>
+          <div>
+            
+          </div>
         </section>
       </main>
     </div>
