@@ -43,7 +43,12 @@ export default function Home() {
         </section>
         <section>
           <div>
-            
+            <h3 className="text-3xl py-1">A little bit about myself</h3>
+            <p className="text-md py-2 leading-8 text-gray-80">As a self-taught software enthusiast with a background in Quantity Surveying, I have been dedicated to expanding my knowledge and skills in the field of web development. Over the past three months, I have immersed myself in the study of JavaScript, React.js, HTML, and CSS, and have built several projects based on YouTube tutorials, which have allowed me to apply my newfound understanding of the fundamental components of React.js and its role in creating responsive web designs.
+
+My passion for software engineering was sparked after working for three years as a Quantity Surveyor, and I now aspire to become a highly skilled software developer, focusing either on frontend development or full-stack expertise. I believe that continuous growth and improvement are essential in this field, and I am committed to honing my skills and expanding my knowledge to the best of my ability.
+
+I am eager to apply my skills and expertise to real-world projects, and I am confident that my background and dedication will make me a valuable asset to any team. I look forward to the opportunity to bring my passion and experience to the table, and to make a positive impact in the field of software development.</p>
           </div>
         </section>
       </main>
