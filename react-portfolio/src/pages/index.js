@@ -4,6 +4,7 @@ import { AiFillTwitterCircle, AiFillGithub, AiFillLinkedin } from 'react-icons/a
 import Image from "next/legacy/image";
 import avatarme from "/public/avatarme.png";
 import code from "/public/Logo.png";
+import contactme from "/public/contactme.png";
 import web1 from "/public/bobot.png";
 import web2 from "/public/chatgpt.png";
 import web3 from "/public/dalle.png";
@@ -74,6 +75,15 @@ I am eager to apply my skills and expertise to real-world projects, and I am con
               <p className="text-gray-800 py-1 ">HTML & CSS</p>
               <p className="text-gray-800 py-1 ">React JS</p>
               <p className="text-gray-800 py-1 ">Tailwind CSS</p>
+            </div>
+          </div>
+          <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+              <Image src={contactme} width={100} height={100} alt="contact-me"/>
+              <h3 className="py-4 text-teal-600">
+                Contact Me
+              </h3>
+              <p className="text-gray-800 py-1 ">zeeharith@gmail.com</p>
             </div>
           </div>
         </section>
