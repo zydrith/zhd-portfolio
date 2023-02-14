@@ -38,7 +38,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Zhiyad Harith</h2>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Aspiring Frontend Developer</h3>
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">React Frontend Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">Hello! This is my portfolio to showcase the projects I have worked on to potential employers. Thank you for taking your time!</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
